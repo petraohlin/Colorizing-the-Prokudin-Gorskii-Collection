@@ -6,7 +6,7 @@
 clear all
 close all
 tic
-allImages = imread('Photos/00106a.tif');
+allImages = imread('Photos/01788v.jpg');
 
 [height, width] = size(allImages);
 
@@ -59,7 +59,12 @@ if averageRed ~= averageGreen && averageRed ~= averageBlue
     newBlue = b*newBlue;
 end
 
-%Recombine the shifted color channels, with color correction. 
+%Adjust the contrast in all color channels
+newRed = imadjust(newRed);
+GreenImage = imadjust(GreenImage);
+newBlue = imadjust(newBlue);
+
+%Recombine the shifted color channels, with color correction.
 rgbImageColorCorrection = cat(3, newRed, GreenImage, newBlue);
 
 
