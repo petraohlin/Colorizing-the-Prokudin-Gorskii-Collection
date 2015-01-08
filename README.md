@@ -6,6 +6,6 @@ The images given from the Prokudin-Gorskii Collection consist of sets of three i
 
 Becomes..
 
-![alt tag](https://raw.githubusercontent.com/petraohlin/Colorizing-the-Prokudin-Gorskii-Collection/master/Photos/01043-result.jpg)
+![alt tag](https://raw.githubusercontent.com/petraohlin/Colorizing-the-Prokudin-Gorskii-Collection/master/Photos/result.jpg)
 
 The result is shown both without and with color correction. 
