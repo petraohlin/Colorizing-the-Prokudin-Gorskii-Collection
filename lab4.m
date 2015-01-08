@@ -6,7 +6,7 @@
 clear all
 close all
 tic
-allImages = imread('Photos/01788v.jpg');
+allImages = imread('Photos/01043v.jpg');
 
 [height, width] = size(allImages);
 
