@@ -11,6 +11,5 @@ firstOffset = offset(firstImage, secondImage);
 %Multiply the offset by the differense in size
 imageOffset = firstOffset*2^level;
 
-
 end
 

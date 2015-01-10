@@ -7,7 +7,8 @@ secondImage = double(secondImage);
 
 min = inf; %First result must be less than infinity
 
-%Find the smallest offset of an 10x10 area by sum squared difference
+%Find the smallest offset of all shifts (maximim 10x10) 
+%by sum of squared difference
 for x = -10:10
     for y = -10:10 
         temp = circshift(firstImage, [x y]);
